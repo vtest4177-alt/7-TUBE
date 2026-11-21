@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#00F0FF</color>
-    <color name="colorPrimarySecond">#FF007F</color>
-    <color name="colorSearch">#192133</color> <!--#3444D1 @color/itemBackground-->
-    <color name="colorOngoing">#FF007F</color> <!--FF8181-->
-    <color name="colorPrimaryDark">#00A8B8</color>
-    <color name="colorAccent">#FF007F</color> <!-- 818fff-->
+    <color name="colorPrimary">#3d50fa</color>
+    <color name="colorPrimarySecond">@color/colorPrimary</color>
+    <color name="colorSearch">#303135</color> <!--#3444D1 @color/itemBackground-->
+    <color name="colorOngoing">#F53B66</color> <!--FF8181-->
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#3b65f5</color> <!-- 818fff-->
 
-    <color name="primaryGrayBackground">#192133</color> <!--0f0f10 0E0E10 303135 2B2C30-->
-    <color name="primaryBlackBackground">#090B10</color> <!--1C1C20 191a1f 19181E 202125 1C1C20-->
-    <color name="iconGrayBackground">#111622</color> <!--141419 202125-->
-    <color name="boxItemBackground">#0E131E</color> <!-- 17171B 1B1B20-->
+    <color name="primaryGrayBackground">#2B2C30</color> <!--0f0f10 0E0E10 303135 2B2C30-->
+    <color name="primaryBlackBackground">#111111</color> <!--1C1C20 191a1f 19181E 202125 1C1C20-->
+    <color name="iconGrayBackground">#1C1C20</color> <!--141419 202125-->
+    <color name="boxItemBackground">#161616</color> <!-- 17171B 1B1B20-->
 
-    <color name="textColor">#E8ECF4</color> <!--FFF-->
-    <color name="grayTextColor">#94A3B8</color> <!-- 5e5f62-->
+    <color name="textColor">#e9eaee</color> <!--FFF-->
+    <color name="grayTextColor">#9ba0a4</color> <!-- 5e5f62-->
     <color name="grayShimmer">#DCDCDC</color> <!-- 5e5f62-->
 
     <color name="searchColorTransparent">#1AFFFFFF</color> <!--DADADA-->
@@ -29,14 +29,14 @@
 
     <color name="progressBackgroundColor">#1AFFFFFF</color>
 
-    <color name="dubColorText">#041016</color> <!--3b65f5 f18c82 8294F1-->
+    <color name="dubColorText">#121950</color> <!--3b65f5 f18c82 8294F1-->
     <color name="amoledModeLight">#121213</color>
 
-    <color name="dubColorBg">#00F0FF</color>
-    <color name="subColorText">#FFFFFF</color> <!--F53B66 FA3D79-->
-    <color name="subColorBg">#FF007F</color>
-    <color name="typeColorText">#00F0FF</color>
-    <color name="typeColorBg">#1E1030</color>
+    <color name="dubColorBg">#3B65F5</color>
+    <color name="subColorText">#571711</color> <!--F53B66 FA3D79-->
+    <color name="subColorBg">#F53B66</color>
+    <color name="typeColorText">#BEC8FF</color>
+    <color name="typeColorBg">#3700B3</color>
 
     <!--
     <color name="ratingColor">#4C3115</color>

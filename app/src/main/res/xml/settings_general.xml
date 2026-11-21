@@ -91,7 +91,7 @@
 
         <Preference
             android:icon="@drawable/quick_novel_icon"
-            android:title=""TG7 ERROR""
+            android:title="TG7 ERROR"
             app:summary="https://github.com/vtest4177-alt/7-TUBE">
             <intent
                 android:action="android.intent.action.VIEW"
