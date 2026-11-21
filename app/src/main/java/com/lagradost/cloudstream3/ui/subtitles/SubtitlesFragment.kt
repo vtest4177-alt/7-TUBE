@@ -35,8 +35,8 @@ import com.lagradost.cloudstream3.CloudStreamApp.Companion.setKey
 import com.lagradost.cloudstream3.CommonActivity.onColorSelectedEvent
 import com.lagradost.cloudstream3.CommonActivity.onDialogDismissedEvent
 import com.lagradost.cloudstream3.CommonActivity.showToast
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.SubtitleSettingsBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.SubtitleSettingsBinding
 import com.lagradost.cloudstream3.ui.BaseDialogFragment
 import com.lagradost.cloudstream3.ui.BaseFragment
 import com.lagradost.cloudstream3.ui.player.CustomDecoder

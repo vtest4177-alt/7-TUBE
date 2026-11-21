@@ -17,7 +17,7 @@ import androidx.core.content.ContextCompat.getString
 import androidx.fragment.app.FragmentActivity
 import androidx.preference.PreferenceManager
 import com.lagradost.cloudstream3.CommonActivity.showToast
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 
 object BiometricAuthenticator {
 

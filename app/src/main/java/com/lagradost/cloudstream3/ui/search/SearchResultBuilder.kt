@@ -14,7 +14,7 @@ import androidx.preference.PreferenceManager
 import com.lagradost.cloudstream3.AnimeSearchResponse
 import com.lagradost.cloudstream3.DubStatus
 import com.lagradost.cloudstream3.LiveSearchResponse
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.SearchQuality
 import com.lagradost.cloudstream3.SearchResponse
 import com.lagradost.cloudstream3.isMovieType

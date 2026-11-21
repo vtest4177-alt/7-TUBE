@@ -8,7 +8,7 @@ import androidx.core.content.FileProvider
 import androidx.core.net.toUri
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.getKey
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.setKey
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.ui.result.LinkLoadingResult
 import com.lagradost.cloudstream3.ui.result.ResultEpisode

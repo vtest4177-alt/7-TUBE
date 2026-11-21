@@ -9,8 +9,8 @@ import androidx.core.view.doOnAttach
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView.OnFlingListener
 import com.google.android.material.appbar.AppBarLayout
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.LibraryViewpagerPageBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.LibraryViewpagerPageBinding
 import com.lagradost.cloudstream3.syncproviders.SyncAPI
 import com.lagradost.cloudstream3.ui.BaseAdapter
 import com.lagradost.cloudstream3.ui.BaseDiffCallback

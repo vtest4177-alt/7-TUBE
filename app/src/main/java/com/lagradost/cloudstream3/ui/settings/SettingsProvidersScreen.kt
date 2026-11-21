@@ -7,7 +7,7 @@ import com.lagradost.cloudstream3.APIHolder
 import com.lagradost.cloudstream3.AllLanguagesName
 import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.DubStatus
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.utils.SubtitleHelper.fromTagToLanguageName
 import com.lagradost.cloudstream3.utils.SubtitleHelper.getNameNextToFlagEmoji

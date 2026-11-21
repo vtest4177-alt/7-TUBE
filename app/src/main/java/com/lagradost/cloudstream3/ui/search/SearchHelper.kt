@@ -4,7 +4,7 @@ import android.widget.Toast
 import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.ui.download.DOWNLOAD_ACTION_PLAY_FILE
 import com.lagradost.cloudstream3.ui.download.DownloadButtonSetup.handleDownloadClick
 import com.lagradost.cloudstream3.ui.download.DownloadClickEvent

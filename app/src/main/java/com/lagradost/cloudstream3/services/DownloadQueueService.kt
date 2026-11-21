@@ -16,7 +16,7 @@ import com.lagradost.cloudstream3.CloudStreamApp.Companion.removeKey
 import com.lagradost.cloudstream3.MainActivity
 import com.lagradost.cloudstream3.MainActivity.Companion.lastError
 import com.lagradost.cloudstream3.MainActivity.Companion.setLastError
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.debugAssert
 import com.lagradost.cloudstream3.mvvm.debugWarning
 import com.lagradost.cloudstream3.mvvm.logError
@@ -48,7 +48,7 @@ import kotlin.time.Duration.Companion.seconds
 class DownloadQueueService : Service() {
     companion object {
         const val TAG = "DownloadQueueService"
-        const val DOWNLOAD_QUEUE_CHANNEL_ID = "cloudstream3.download.queue"
+        const val DOWNLOAD_QUEUE_CHANNEL_ID = "seventube.download.queue"
         const val DOWNLOAD_QUEUE_CHANNEL_NAME = "Download queue service"
         const val DOWNLOAD_QUEUE_CHANNEL_DESCRIPTION = "App download queue notification."
         const val DOWNLOAD_QUEUE_NOTIFICATION_ID = 917194232 // Random unique

@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 
 class LoadingPosterAdapter(context: Context, private val itemCount: Int) :
     BaseAdapter() {

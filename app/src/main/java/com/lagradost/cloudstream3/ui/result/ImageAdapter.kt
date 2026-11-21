@@ -2,7 +2,7 @@ package com.lagradost.cloudstream3.ui.result
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.lagradost.cloudstream3.databinding.ResultMiniImageBinding
+import com.tg7error.seventube.databinding.ResultMiniImageBinding
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.NoStateAdapter
 import com.lagradost.cloudstream3.ui.ViewHolderState

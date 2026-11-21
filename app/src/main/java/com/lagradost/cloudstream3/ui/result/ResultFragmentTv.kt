@@ -22,9 +22,9 @@ import com.lagradost.cloudstream3.CommonActivity
 import com.lagradost.cloudstream3.DubStatus
 import com.lagradost.cloudstream3.LoadResponse
 import com.lagradost.cloudstream3.MainActivity.Companion.afterPluginsLoadedEvent
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.SearchResponse
-import com.lagradost.cloudstream3.databinding.FragmentResultTvBinding
+import com.tg7error.seventube.databinding.FragmentResultTvBinding
 import com.lagradost.cloudstream3.mvvm.Resource
 import com.lagradost.cloudstream3.mvvm.observe
 import com.lagradost.cloudstream3.mvvm.observeNullable

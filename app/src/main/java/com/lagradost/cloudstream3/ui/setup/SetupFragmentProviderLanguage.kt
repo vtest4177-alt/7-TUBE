@@ -9,9 +9,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceManager
 import com.lagradost.cloudstream3.AllLanguagesName
 import com.lagradost.cloudstream3.APIHolder
-import com.lagradost.cloudstream3.databinding.FragmentSetupProviderLanguagesBinding
+import com.tg7error.seventube.databinding.FragmentSetupProviderLanguagesBinding
 import com.lagradost.cloudstream3.mvvm.safe
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.ui.BaseFragment
 import com.lagradost.cloudstream3.utils.AppContextUtils.getApiProviderLangSettings
 import com.lagradost.cloudstream3.utils.SubtitleHelper.getNameNextToFlagEmoji

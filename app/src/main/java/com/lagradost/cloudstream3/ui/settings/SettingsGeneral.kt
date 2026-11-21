@@ -21,10 +21,10 @@ import com.lagradost.cloudstream3.CommonActivity
 import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.databinding.AddRemoveSitesBinding
-import com.lagradost.cloudstream3.databinding.AddSiteInputBinding
+import com.tg7error.seventube.databinding.AddRemoveSitesBinding
+import com.tg7error.seventube.databinding.AddSiteInputBinding
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.safe
 import com.lagradost.cloudstream3.network.initClient

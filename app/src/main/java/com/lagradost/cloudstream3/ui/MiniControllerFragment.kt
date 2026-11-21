@@ -9,7 +9,7 @@ import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import androidx.core.content.withStyledAttributes
 import com.google.android.gms.cast.framework.media.widget.MiniControllerFragment
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.utils.UIHelper.adjustAlpha
 import com.lagradost.cloudstream3.utils.UIHelper.colorFromAttribute
 import com.lagradost.cloudstream3.utils.UIHelper.toPx

@@ -37,7 +37,7 @@ import com.lagradost.cloudstream3.LoadResponse.Companion.readIdFromString
 import com.lagradost.cloudstream3.MainActivity
 import com.lagradost.cloudstream3.MovieLoadResponse
 import com.lagradost.cloudstream3.ProviderType
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.Score
 import com.lagradost.cloudstream3.SearchResponse
 import com.lagradost.cloudstream3.SeasonData

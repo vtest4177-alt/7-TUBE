@@ -11,9 +11,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.content.edit
 import androidx.core.net.toUri
 import androidx.preference.PreferenceManager
-import com.lagradost.cloudstream3.BuildConfig
+import com.tg7error.seventube.BuildConfig
 import com.lagradost.cloudstream3.CommonActivity.showToast
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.ui.settings.Globals.PHONE
 import com.lagradost.cloudstream3.ui.settings.Globals.isLayout
 

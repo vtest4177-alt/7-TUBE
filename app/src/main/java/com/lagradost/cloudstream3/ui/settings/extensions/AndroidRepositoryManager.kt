@@ -4,7 +4,7 @@ import com.lagradost.cloudstream3.CloudStreamApp.Companion.getKey
 import com.lagradost.cloudstream3.CommonActivity
 import com.lagradost.cloudstream3.ErrorLoadingException
 import com.lagradost.cloudstream3.InternalAPI
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.app
 import com.lagradost.cloudstream3.cmap

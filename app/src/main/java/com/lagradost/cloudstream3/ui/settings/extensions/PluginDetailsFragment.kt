@@ -6,13 +6,13 @@ import android.util.Log
 import android.view.View
 import androidx.core.view.isVisible
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.openBrowser
-import com.lagradost.cloudstream3.databinding.FragmentPluginDetailsBinding
+import com.tg7error.seventube.databinding.FragmentPluginDetailsBinding
 import com.lagradost.cloudstream3.plugins.PluginManager
 import com.lagradost.cloudstream3.plugins.VotingApi.canVote
 import com.lagradost.cloudstream3.plugins.VotingApi.getVotes
 import com.lagradost.cloudstream3.plugins.VotingApi.hasVoted
 import com.lagradost.cloudstream3.plugins.VotingApi.vote
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.ui.BaseBottomSheetDialogFragment
 import com.lagradost.cloudstream3.ui.BaseFragment
 import com.lagradost.cloudstream3.ui.settings.Globals.EMULATOR

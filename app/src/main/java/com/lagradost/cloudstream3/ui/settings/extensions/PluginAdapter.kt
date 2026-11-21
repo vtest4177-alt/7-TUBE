@@ -11,9 +11,9 @@ import androidx.core.view.isVisible
 import androidx.viewbinding.ViewBinding
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.getActivity
 import com.lagradost.cloudstream3.PROVIDER_STATUS_DOWN
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvType
-import com.lagradost.cloudstream3.databinding.RepositoryItemBinding
+import com.tg7error.seventube.databinding.RepositoryItemBinding
 import com.lagradost.cloudstream3.plugins.PluginManager
 import com.lagradost.cloudstream3.plugins.PluginWrapper
 import com.lagradost.cloudstream3.ui.BaseDiffCallback

@@ -68,10 +68,10 @@ import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.core.app.ActivityOptionsCompat
 import coil3.compose.AsyncImage
-import com.lagradost.cloudstream3.BuildConfig
+import com.tg7error.seventube.BuildConfig
 import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.CommonActivity.showToast
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.utils.DataStoreHelper
 import com.lagradost.cloudstream3.utils.DataStoreHelper.profileImages
@@ -473,7 +473,7 @@ object SettingsFragmentScreen : Screen {
                 },
         ) {
             ProvideTextStyle(MaterialTheme.typography.bodyMedium) {
-                Text(text = BuildConfig.VERSION_NAME)
+                Text(text = "7-Tube v${BuildConfig.VERSION_NAME} • TG7 ERROR")
                 if (commitHash != "") {
                     Text("•")
                     Text(text = commitHash)

@@ -2,7 +2,7 @@ package com.lagradost.cloudstream3.ui.library
 
 import android.view.View
 import androidx.viewpager2.widget.ViewPager2
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import kotlin.math.roundToInt
 
 class LibraryScrollTransformer : ViewPager2.PageTransformer {

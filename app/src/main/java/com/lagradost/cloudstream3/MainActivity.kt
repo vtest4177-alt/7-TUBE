@@ -77,9 +77,9 @@ import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.CommonActivity.updateLocale
 import com.lagradost.cloudstream3.CommonActivity.updateTheme
 import com.lagradost.cloudstream3.actions.temp.fcast.FcastManager
-import com.lagradost.cloudstream3.databinding.ActivityMainBinding
-import com.lagradost.cloudstream3.databinding.ActivityMainTvBinding
-import com.lagradost.cloudstream3.databinding.BottomResultviewPreviewBinding
+import com.tg7error.seventube.databinding.ActivityMainBinding
+import com.tg7error.seventube.databinding.ActivityMainTvBinding
+import com.tg7error.seventube.databinding.BottomResultviewPreviewBinding
 import com.lagradost.cloudstream3.mvvm.Resource
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.safe

@@ -11,8 +11,8 @@ import android.view.animation.ScaleAnimation
 import androidx.core.view.isVisible
 import com.lagradost.cloudstream3.ActorData
 import com.lagradost.cloudstream3.ActorRole
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.CastItemBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.CastItemBinding
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.NoStateAdapter
 import com.lagradost.cloudstream3.ui.ViewHolderState

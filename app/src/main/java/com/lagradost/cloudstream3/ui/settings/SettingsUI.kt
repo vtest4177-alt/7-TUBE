@@ -8,7 +8,7 @@ import androidx.preference.PreferenceManager
 import androidx.preference.SeekBarPreference
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.getActivity
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.SearchQuality
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.ui.BasePreferenceFragmentCompat

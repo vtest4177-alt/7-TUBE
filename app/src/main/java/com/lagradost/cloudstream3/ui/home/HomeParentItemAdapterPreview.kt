@@ -25,10 +25,10 @@ import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.HomePageList
 import com.lagradost.cloudstream3.LoadResponse
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.SearchResponse
-import com.lagradost.cloudstream3.databinding.FragmentHomeHeadBinding
-import com.lagradost.cloudstream3.databinding.FragmentHomeHeadTvBinding
+import com.tg7error.seventube.databinding.FragmentHomeHeadBinding
+import com.tg7error.seventube.databinding.FragmentHomeHeadTvBinding
 import com.lagradost.cloudstream3.mvvm.Resource
 import com.lagradost.cloudstream3.mvvm.debugException
 import com.lagradost.cloudstream3.mvvm.logError

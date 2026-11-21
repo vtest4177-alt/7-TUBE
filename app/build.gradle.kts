@@ -103,7 +103,7 @@ android {
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.lagradost.cloudstream3"
+        applicationId = "com.tg7error.seventube"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = libs.versions.versionCode.get().toInt()
@@ -211,7 +211,7 @@ android {
         }
     }
 
-    namespace = "com.lagradost.cloudstream3"
+    namespace = "com.tg7error.seventube"
 }
 
 dependencies {

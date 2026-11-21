@@ -3,7 +3,7 @@ package com.lagradost.cloudstream3.ui.result
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.lagradost.cloudstream3.databinding.ResultSelectionBinding
+import com.tg7error.seventube.databinding.ResultSelectionBinding
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.NoStateAdapter
 import com.lagradost.cloudstream3.ui.ViewHolderState

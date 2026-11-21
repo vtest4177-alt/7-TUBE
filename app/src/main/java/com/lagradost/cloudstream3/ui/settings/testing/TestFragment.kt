@@ -2,8 +2,8 @@ package com.lagradost.cloudstream3.ui.settings.testing
 
 import android.view.View
 import androidx.fragment.app.activityViewModels
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.FragmentTestingBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.FragmentTestingBinding
 import com.lagradost.cloudstream3.mvvm.safe
 import com.lagradost.cloudstream3.mvvm.observe
 import com.lagradost.cloudstream3.mvvm.observeNullable

@@ -15,7 +15,7 @@ import com.google.android.gms.cast.TextTrackStyle.EDGE_TYPE_DROP_SHADOW
 import com.google.android.gms.cast.TextTrackStyle.EDGE_TYPE_NONE
 import com.google.android.gms.cast.TextTrackStyle.EDGE_TYPE_OUTLINE
 import com.google.android.gms.cast.TextTrackStyle.EDGE_TYPE_RAISED
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.ui.subtitles.ChromecastSubtitlesFragment.Companion.applyStyleEvent
 import com.lagradost.cloudstream3.ui.subtitles.ChromecastSubtitlesFragment.Companion.chromeCastSubtitleState
 import com.lagradost.cloudstream3.ui.subtitles.ChromecastSubtitlesFragment.Companion.defaultChromeCastSubtitleState

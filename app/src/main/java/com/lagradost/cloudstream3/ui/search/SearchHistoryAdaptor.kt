@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.core.view.isGone
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.cloudstream3.TvType
-import com.lagradost.cloudstream3.databinding.SearchHistoryFooterBinding
-import com.lagradost.cloudstream3.databinding.SearchHistoryItemBinding
+import com.tg7error.seventube.databinding.SearchHistoryFooterBinding
+import com.tg7error.seventube.databinding.SearchHistoryItemBinding
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.NoStateAdapter
 import com.lagradost.cloudstream3.ui.ViewHolderState

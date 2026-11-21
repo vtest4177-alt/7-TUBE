@@ -27,7 +27,7 @@ import coil3.request.allowHardware
 import coil3.request.bitmapConfig
 import coil3.request.crossfade
 import coil3.util.DebugLogger
-import com.lagradost.cloudstream3.BuildConfig
+import com.tg7error.seventube.BuildConfig
 import com.lagradost.cloudstream3.USER_AGENT
 import com.lagradost.cloudstream3.network.buildDefaultClient
 import okio.Path.Companion.toOkioPath

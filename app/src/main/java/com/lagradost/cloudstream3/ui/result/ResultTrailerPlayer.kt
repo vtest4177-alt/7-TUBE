@@ -13,8 +13,8 @@ import androidx.core.view.isVisible
 import com.lagradost.cloudstream3.CommonActivity.screenHeight
 import com.lagradost.cloudstream3.CommonActivity.screenWidth
 import com.lagradost.cloudstream3.LoadResponse
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.FragmentResultSwipeBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.FragmentResultSwipeBinding
 import com.lagradost.cloudstream3.ui.player.CSPlayerEvent
 import com.lagradost.cloudstream3.ui.player.CSPlayerLoading
 import com.lagradost.cloudstream3.ui.player.PlayerEventSource

@@ -4,8 +4,8 @@ import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isGone
 import androidx.fragment.app.activityViewModels
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.FragmentDownloadQueueBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.FragmentDownloadQueueBinding
 import com.lagradost.cloudstream3.mvvm.observe
 import com.lagradost.cloudstream3.ui.BaseFragment
 import com.lagradost.cloudstream3.ui.settings.Globals.EMULATOR

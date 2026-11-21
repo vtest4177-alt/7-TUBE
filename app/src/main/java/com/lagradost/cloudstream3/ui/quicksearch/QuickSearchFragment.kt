@@ -18,8 +18,8 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.lagradost.cloudstream3.APIHolder.getApiFromNameNull
 import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.HomePageList
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.QuickSearchBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.QuickSearchBinding
 import com.lagradost.cloudstream3.mvvm.Resource
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.observe

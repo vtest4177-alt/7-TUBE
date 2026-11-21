@@ -9,8 +9,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding
 import com.lagradost.cloudstream3.LoadResponse
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.HomepageParentBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.HomepageParentBinding
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.ui.BaseAdapter
 import com.lagradost.cloudstream3.ui.BaseDiffCallback

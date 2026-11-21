@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.dp
 import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.DubStatus
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.SearchQuality
 import com.lagradost.cloudstream3.mvvm.safe
 import com.lagradost.cloudstream3.ui.clear

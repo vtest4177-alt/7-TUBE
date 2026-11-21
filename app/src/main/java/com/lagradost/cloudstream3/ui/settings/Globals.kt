@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.res.Configuration
 import android.content.res.Resources
 import androidx.preference.PreferenceManager
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream4.compose.DeviceLayout.Companion.isAutoTv
 
 object Globals {

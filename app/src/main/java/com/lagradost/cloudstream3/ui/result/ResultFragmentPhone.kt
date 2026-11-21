@@ -37,15 +37,15 @@ import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.DubStatus
 import com.lagradost.cloudstream3.LoadResponse
 import com.lagradost.cloudstream3.MainActivity.Companion.afterPluginsLoadedEvent
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.Score
 import com.lagradost.cloudstream3.SearchResponse
 import com.lagradost.cloudstream3.base64Encode
-import com.lagradost.cloudstream3.databinding.FragmentResultBinding
-import com.lagradost.cloudstream3.databinding.FragmentResultSwipeBinding
-import com.lagradost.cloudstream3.databinding.ResultRecommendationsBinding
-import com.lagradost.cloudstream3.databinding.ResultSyncBinding
-import com.lagradost.cloudstream3.databinding.TrailerCustomLayoutBinding
+import com.tg7error.seventube.databinding.FragmentResultBinding
+import com.tg7error.seventube.databinding.FragmentResultSwipeBinding
+import com.tg7error.seventube.databinding.ResultRecommendationsBinding
+import com.tg7error.seventube.databinding.ResultSyncBinding
+import com.tg7error.seventube.databinding.TrailerCustomLayoutBinding
 import com.lagradost.cloudstream3.mvvm.Resource
 import com.lagradost.cloudstream3.mvvm.launchSafe
 import com.lagradost.cloudstream3.mvvm.logError
@@ -1030,7 +1030,7 @@ open class ResultFragmentPhone : BaseFragment<FragmentResultSwipeBinding>(
                                     "UTF-8"
                                 )
                                 val redirectUrl =
-                                    "https://recloudstream.github.io/csredirect?redirectto=$encodedUri"
+                                    "seventubeapp://open?uri=$encodedUri"
                                 i.type = "text/plain"
                                 i.putExtra(Intent.EXTRA_SUBJECT, d.title)
                                 i.putExtra(Intent.EXTRA_TEXT, redirectUrl)

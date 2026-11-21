@@ -2,9 +2,9 @@ package com.lagradost.cloudstream3.ui.settings.extensions
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.RepositoryItemBinding
-import com.lagradost.cloudstream3.databinding.RepositoryItemTvBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.RepositoryItemBinding
+import com.tg7error.seventube.databinding.RepositoryItemTvBinding
 import com.lagradost.cloudstream3.plugins.RepositoryManager.PREBUILT_REPOSITORIES
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.NoStateAdapter

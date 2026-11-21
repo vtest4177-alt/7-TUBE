@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.cloudstream3.AnimeLoadResponse
 import com.lagradost.cloudstream3.ErrorLoadingException
 import com.lagradost.cloudstream3.LoadResponse
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvSeriesLoadResponse
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.app

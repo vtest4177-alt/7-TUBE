@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.preference.PreferenceManager
 import androidx.viewbinding.ViewBinding
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.SearchResponse
-import com.lagradost.cloudstream3.databinding.HomeRemoveGridBinding
-import com.lagradost.cloudstream3.databinding.HomeRemoveGridExpandedBinding
-import com.lagradost.cloudstream3.databinding.HomeResultGridBinding
-import com.lagradost.cloudstream3.databinding.HomeResultGridExpandedBinding
+import com.tg7error.seventube.databinding.HomeRemoveGridBinding
+import com.tg7error.seventube.databinding.HomeRemoveGridExpandedBinding
+import com.tg7error.seventube.databinding.HomeResultGridBinding
+import com.tg7error.seventube.databinding.HomeResultGridExpandedBinding
 import com.lagradost.cloudstream3.ui.BaseAdapter
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.ViewHolderState

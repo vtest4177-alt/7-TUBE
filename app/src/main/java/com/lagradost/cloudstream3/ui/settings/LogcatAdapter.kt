@@ -2,7 +2,7 @@ package com.lagradost.cloudstream3.ui.settings
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.lagradost.cloudstream3.databinding.ItemLogcatBinding
+import com.tg7error.seventube.databinding.ItemLogcatBinding
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.NoStateAdapter
 import com.lagradost.cloudstream3.ui.ViewHolderState

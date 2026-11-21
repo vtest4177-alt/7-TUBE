@@ -11,7 +11,7 @@ import androidx.core.net.toUri
 import androidx.work.*
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.APIHolder.getApiFromNameNull
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.plugins.PluginManager
 import com.lagradost.cloudstream3.utils.txt
@@ -26,7 +26,7 @@ import com.lagradost.cloudstream3.utils.downloader.DownloadUtils.getImageBitmapF
 import kotlinx.coroutines.withTimeoutOrNull
 import java.util.concurrent.TimeUnit
 
-const val SUBSCRIPTION_CHANNEL_ID = "cloudstream3.subscriptions"
+const val SUBSCRIPTION_CHANNEL_ID = "seventube.subscriptions"
 const val SUBSCRIPTION_WORK_NAME = "work_subscription"
 const val SUBSCRIPTION_CHANNEL_NAME = "Subscriptions"
 const val SUBSCRIPTION_CHANNEL_DESCRIPTION = "Notifications for new episodes on subscribed shows"

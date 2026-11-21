@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.core.view.isVisible
-import com.lagradost.cloudstream3.databinding.SearchResultGridExpandedBinding
+import com.tg7error.seventube.databinding.SearchResultGridExpandedBinding
 import com.lagradost.cloudstream3.syncproviders.SyncAPI
 import com.lagradost.cloudstream3.ui.AutofitRecyclerView
 import com.lagradost.cloudstream3.ui.BaseDiffCallback

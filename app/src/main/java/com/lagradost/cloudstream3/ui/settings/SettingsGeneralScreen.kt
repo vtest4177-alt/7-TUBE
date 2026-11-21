@@ -20,7 +20,7 @@ import com.lagradost.cloudstream3.AllLanguagesName
 import com.lagradost.cloudstream3.CloudStreamApp
 import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.CommonActivity.showToast
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.UnsafeSSL
 import com.lagradost.cloudstream3.app
@@ -247,34 +247,34 @@ object SettingsGeneralScreen : SearchableSettings {
                 preferenceItems = persistentListOf(
                     Preference.PreferenceItem.TextPreference(
                         title = stringResource(R.string.github),
-                        subtitle = "https://github.com/recloudstream/cloudstream",
+                        subtitle = "https://github.com/vtest4177-alt/7-TUBE",
                         icon = painterResource(R.drawable.ic_github_logo),
                         onClick = {
-                            CloudStreamApp.openBrowser("https://github.com/recloudstream/cloudstream")
+                            CloudStreamApp.openBrowser("https://github.com/vtest4177-alt/7-TUBE")
                         }
                     ),
                     Preference.PreferenceItem.TextPreference(
-                        title = stringResource(R.string.lightnovel),
-                        subtitle = "https://github.com/LagradOst/QuickNovel",
+                        title = "7-Tube by TG7 ERROR",
+                        subtitle = "https://github.com/vtest4177-alt/7-TUBE",
                         icon = painterResource(R.drawable.quick_novel_icon),
                         onClick = {
-                            CloudStreamApp.openBrowser("https://github.com/LagradOst/QuickNovel")
+                            CloudStreamApp.openBrowser("https://github.com/vtest4177-alt/7-TUBE")
                         }
                     ),
                     Preference.PreferenceItem.TextPreference(
                         title = stringResource(R.string.discord),
-                        subtitle = "https://discord.gg/5Hus6fM",
+                        subtitle = "https://github.com/vtest4177-alt/7-TUBE",
                         icon = painterResource(R.drawable.ic_baseline_discord_24),
                         onClick = {
-                            CloudStreamApp.openBrowser("https://discord.gg/5Hus6fM")
+                            CloudStreamApp.openBrowser("https://github.com/vtest4177-alt/7-TUBE")
                         }
                     ),
                     Preference.PreferenceItem.TextPreference(
                         title = stringResource(R.string.cs3wiki),
-                        subtitle = "https://cloudstream.miraheze.org/",
+                        subtitle = "https://github.com/vtest4177-alt/7-TUBE",
                         icon = painterResource(R.drawable.description_24px),
                         onClick = {
-                            CloudStreamApp.openBrowser("https://cloudstream.miraheze.org/")
+                            CloudStreamApp.openBrowser("https://github.com/vtest4177-alt/7-TUBE")
                         }
                     ),
                 )

@@ -12,9 +12,9 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.appbar.MaterialToolbar
-import com.lagradost.cloudstream3.BuildConfig
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.MainSettingsBinding
+import com.tg7error.seventube.BuildConfig
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.MainSettingsBinding
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.safe
 import com.lagradost.cloudstream3.syncproviders.AccountManager

@@ -6,10 +6,10 @@ import androidx.appcompat.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModelProvider
 import com.lagradost.cloudstream3.AllLanguagesName
-import com.lagradost.cloudstream3.BuildConfig
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.BuildConfig
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvType
-import com.lagradost.cloudstream3.databinding.FragmentPluginsBinding
+import com.tg7error.seventube.databinding.FragmentPluginsBinding
 import com.lagradost.cloudstream3.mvvm.observe
 import com.lagradost.cloudstream3.ui.BaseFragment
 import com.lagradost.cloudstream3.ui.home.HomeFragment.Companion.bindChips

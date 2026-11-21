@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.AccountSingleBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.AccountSingleBinding
 import com.lagradost.cloudstream3.syncproviders.AuthData
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.NoStateAdapter

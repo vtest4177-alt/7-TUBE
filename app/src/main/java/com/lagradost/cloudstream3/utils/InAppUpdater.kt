@@ -13,10 +13,10 @@ import androidx.core.content.FileProvider
 import androidx.core.content.edit
 import androidx.preference.PreferenceManager
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.BuildConfig
+import com.tg7error.seventube.BuildConfig
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.MainActivity.Companion.deleteFileOnExit
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.app
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.safe
@@ -38,10 +38,10 @@ import java.io.IOException
 import java.io.InputStreamReader
 
 object InAppUpdater {
-    private const val GITHUB_USER_NAME = "recloudstream"
-    private const val GITHUB_REPO = "cloudstream"
+    private const val GITHUB_USER_NAME = "vtest4177-alt"
+    private const val GITHUB_REPO = "7-TUBE"
 
-    private const val PRERELEASE_PACKAGE_NAME = "com.lagradost.cloudstream3.prerelease"
+    private const val PRERELEASE_PACKAGE_NAME = "com.tg7error.seventube.prerelease"
     private const val LOG_TAG = "InAppUpdater"
 
     @Serializable

@@ -20,14 +20,14 @@ import androidx.core.app.PendingIntentCompat
 import androidx.core.net.toUri
 import androidx.preference.PreferenceManager
 import com.lagradost.cloudstream3.APIHolder.getApiFromNameNull
-import com.lagradost.cloudstream3.BuildConfig
+import com.tg7error.seventube.BuildConfig
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.getKey
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.removeKey
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.setKey
 import com.lagradost.cloudstream3.IDownloadableMinimum
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.app
 import com.lagradost.cloudstream3.mvvm.launchSafe
@@ -106,7 +106,7 @@ import java.io.Closeable
 import java.io.IOException
 import java.io.OutputStream
 
-const val DOWNLOAD_CHANNEL_ID = "cloudstream3.general"
+const val DOWNLOAD_CHANNEL_ID = "seventube.general"
 const val DOWNLOAD_CHANNEL_NAME = "Downloads"
 const val DOWNLOAD_CHANNEL_DESCRIPT = "The download notification channel"
 

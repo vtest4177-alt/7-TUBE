@@ -17,5 +17,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CloudStream"
+rootProject.name = "7-Tube"
 include(":app", ":shared", ":library", ":docs", ":desktopApp")

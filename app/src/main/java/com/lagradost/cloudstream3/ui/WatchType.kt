@@ -2,7 +2,7 @@ package com.lagradost.cloudstream3.ui
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 
 enum class WatchType(val internalId: Int, @StringRes val stringRes: Int, @DrawableRes val iconRes: Int) {
     WATCHING(0, R.string.type_watching, R.drawable.ic_baseline_bookmark_24),

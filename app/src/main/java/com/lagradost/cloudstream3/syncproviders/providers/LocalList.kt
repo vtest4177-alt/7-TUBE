@@ -1,6 +1,6 @@
 package com.lagradost.cloudstream3.syncproviders.providers
 
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.syncproviders.AuthData
 import com.lagradost.cloudstream3.syncproviders.SyncAPI
 import com.lagradost.cloudstream3.syncproviders.SyncIdName

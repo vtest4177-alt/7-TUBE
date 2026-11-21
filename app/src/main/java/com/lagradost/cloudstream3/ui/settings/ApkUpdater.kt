@@ -8,7 +8,7 @@ import android.content.Intent
 import android.content.pm.PackageInstaller
 import android.os.Build
 import androidx.core.content.FileProvider
-import com.lagradost.cloudstream3.BuildConfig
+import com.tg7error.seventube.BuildConfig
 import com.lagradost.cloudstream3.CommonActivity
 import com.lagradost.cloudstream3.ErrorLoadingException
 import com.lagradost.cloudstream3.MainActivity.Companion.deleteFileOnExit
@@ -29,7 +29,7 @@ import java.security.DigestException
 import java.security.MessageDigest
 
 object ApkUpdater : AppUpdater {
-    private const val APP_UPDATE_NAME = "CloudStream"
+    private const val APP_UPDATE_NAME = "7-Tube"
     private const val APP_UPDATE_SUFFIX = "apk"
 
     @Throws

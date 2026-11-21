@@ -3,7 +3,7 @@ package com.lagradost.cloudstream3.syncproviders
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.openBrowser
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.ErrorLoadingException
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.safe
 import com.lagradost.cloudstream3.syncproviders.AccountManager.Companion.NONE_ID

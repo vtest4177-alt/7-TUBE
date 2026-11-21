@@ -21,11 +21,11 @@ import com.lagradost.cloudstream3.CloudStreamApp.Companion.openBrowser
 import com.lagradost.cloudstream3.CommonActivity.onDialogDismissedEvent
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.ErrorLoadingException
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.AccountManagmentBinding
-import com.lagradost.cloudstream3.databinding.AccountSwitchBinding
-import com.lagradost.cloudstream3.databinding.AddAccountInputBinding
-import com.lagradost.cloudstream3.databinding.DeviceAuthBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.AccountManagmentBinding
+import com.tg7error.seventube.databinding.AccountSwitchBinding
+import com.tg7error.seventube.databinding.AddAccountInputBinding
+import com.tg7error.seventube.databinding.DeviceAuthBinding
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.syncproviders.AccountManager.Companion.aniListApi
 import com.lagradost.cloudstream3.syncproviders.AccountManager.Companion.animeSkipApi

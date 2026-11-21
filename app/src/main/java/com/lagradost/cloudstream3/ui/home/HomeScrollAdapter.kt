@@ -5,8 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isGone
 import com.lagradost.cloudstream3.LoadResponse
-import com.lagradost.cloudstream3.databinding.HomeScrollViewBinding
-import com.lagradost.cloudstream3.databinding.HomeScrollViewTvBinding
+import com.tg7error.seventube.databinding.HomeScrollViewBinding
+import com.tg7error.seventube.databinding.HomeScrollViewTvBinding
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.NoStateAdapter
 import com.lagradost.cloudstream3.ui.ViewHolderState

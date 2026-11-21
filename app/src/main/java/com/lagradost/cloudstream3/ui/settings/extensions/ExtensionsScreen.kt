@@ -96,11 +96,11 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.findNavController
 import coil3.compose.AsyncImage
 import com.fasterxml.jackson.core.JacksonException
-import com.lagradost.cloudstream3.BuildConfig
+import com.tg7error.seventube.BuildConfig
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.openBrowser
 import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.PROVIDER_STATUS_DOWN
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.plugins.PluginManager
 import com.lagradost.cloudstream3.ui.settings.SettingsFragmentScreen

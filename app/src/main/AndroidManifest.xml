@@ -75,7 +75,7 @@
     <!-- Without the large heap Exoplayer buffering gets reset due to OOM. -->
     <!--TODO https://stackoverflow.com/questions/41799732/chromecast-button-not-visible-in-android-->
     <application
-        android:name=".CloudStreamApp"
+        android:name="com.lagradost.cloudstream3.CloudStreamApp"
         android:allowBackup="true"
         android:appCategory="video"
         android:banner="@mipmap/ic_banner"
@@ -100,7 +100,7 @@
             tools:targetApi="q" />
 
         <activity
-            android:name=".ui.player.DownloadedPlayerActivity"
+            android:name="com.lagradost.cloudstream3.ui.player.DownloadedPlayerActivity"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden|navigation"
             android:exported="true"
             android:resizeableActivity="true"
@@ -154,7 +154,7 @@
         Not exported to prevent bypassing the AccountSelectActivity
         -->
         <activity
-            android:name=".MainActivity"
+            android:name="com.lagradost.cloudstream3.MainActivity"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden|navigation|uiMode"
             android:exported="false"
             android:launchMode="singleTask"
@@ -162,7 +162,7 @@
             android:supportsPictureInPicture="true" />
 
         <activity
-            android:name=".ui.account.AccountSelectActivity2"
+            android:name="com.lagradost.cloudstream3.ui.account.AccountSelectActivity2"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden"
             android:exported="true">
             <intent-filter android:exported="true">
@@ -183,7 +183,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="cloudstreamplayer" />
+                <data android:scheme="seventubeplayer" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -191,7 +191,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="cloudstreamapp" />
+                <data android:scheme="seventubeapp" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -199,6 +199,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
+                <data android:scheme="seventuberepo" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="cloudstreamrepo" />
             </intent-filter>
             <intent-filter>
@@ -207,7 +213,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="csshare" />
+                <data android:scheme="seventubeshare" />
             </intent-filter>
             <!-- Allow searching with intents: cloudstreamsearch://Your%20Name -->
             <intent-filter>
@@ -216,7 +222,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="cloudstreamsearch" />
+                <data android:scheme="seventubesearch" />
             </intent-filter>
 
             <!--
@@ -229,7 +235,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="cloudstreamcontinuewatching" />
+                <data android:scheme="seventubecontinuewatching" />
             </intent-filter>
 
             <intent-filter android:autoVerify="false">
@@ -246,7 +252,7 @@
         </activity>
 
         <receiver
-            android:name=".receivers.VideoDownloadRestartReceiver"
+            android:name="com.lagradost.cloudstream3.receivers.VideoDownloadRestartReceiver"
             android:enabled="false"
             android:exported="false">
             <intent-filter android:exported="false">
@@ -255,17 +261,17 @@
         </receiver>
 
         <receiver
-            android:name=".receivers.PackageInstallerStatusReceiver"
+            android:name="com.lagradost.cloudstream3.receivers.PackageInstallerStatusReceiver"
             android:exported="false" />
 
         <service
-            android:name=".services.VideoDownloadService"
+            android:name="com.lagradost.cloudstream3.services.VideoDownloadService"
             android:enabled="true"
             android:foregroundServiceType="dataSync"
             android:exported="false" />
 
         <service
-            android:name=".services.DownloadQueueService"
+            android:name="com.lagradost.cloudstream3.services.DownloadQueueService"
             android:enabled="true"
             android:foregroundServiceType="dataSync"
             android:exported="false" />
@@ -277,11 +283,11 @@
             tools:node="merge" />
 
         <activity
-            android:name=".ui.ControllerActivity"
+            android:name="com.lagradost.cloudstream3.ui.ControllerActivity"
             android:exported="false" />
 
         <service
-            android:name=".services.PackageInstallerService"
+            android:name="com.lagradost.cloudstream3.services.PackageInstallerService"
             android:foregroundServiceType="dataSync"
             android:exported="false" />
 

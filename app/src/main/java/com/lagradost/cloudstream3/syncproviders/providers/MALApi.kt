@@ -3,10 +3,10 @@ package com.lagradost.cloudstream3.syncproviders.providers
 import androidx.annotation.StringRes
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.cloudstream3.APIHolder
-import com.lagradost.cloudstream3.BuildConfig
+import com.tg7error.seventube.BuildConfig
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.getKey
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.setKey
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.Score
 import com.lagradost.cloudstream3.ShowStatus
 import com.lagradost.cloudstream3.TvType

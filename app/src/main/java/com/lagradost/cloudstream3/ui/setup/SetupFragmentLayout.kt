@@ -7,8 +7,8 @@ import androidx.core.content.edit
 import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceManager
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.setKey
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.FragmentSetupLayoutBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.FragmentSetupLayoutBinding
 import com.lagradost.cloudstream3.mvvm.safe
 import com.lagradost.cloudstream3.ui.BaseFragment
 import com.lagradost.cloudstream3.utils.UIHelper.fixSystemBarsPadding

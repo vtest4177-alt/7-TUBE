@@ -34,7 +34,7 @@ import com.lagradost.cloudstream3.MainActivity.Companion.afterPluginsLoadedEvent
 import com.lagradost.cloudstream3.MainActivity.Companion.lastError
 import com.lagradost.cloudstream3.PROVIDER_STATUS_DOWN
 import com.lagradost.cloudstream3.PROVIDER_STATUS_OK
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.actions.VideoClickAction
 import com.lagradost.cloudstream3.actions.VideoClickActionHolder
@@ -70,7 +70,7 @@ import java.io.InputStreamReader
 const val PLUGINS_KEY = "PLUGINS_KEY"
 const val PLUGINS_KEY_LOCAL = "PLUGINS_KEY_LOCAL"
 
-const val EXTENSIONS_CHANNEL_ID = "cloudstream3.extensions"
+const val EXTENSIONS_CHANNEL_ID = "seventube.extensions"
 const val EXTENSIONS_CHANNEL_NAME = "Extensions"
 const val EXTENSIONS_CHANNEL_DESCRIPT = "Extension notification channel"
 

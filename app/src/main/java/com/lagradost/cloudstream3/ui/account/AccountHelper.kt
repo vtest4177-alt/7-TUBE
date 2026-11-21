@@ -24,11 +24,11 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.getActivity
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.AccountEditDialogBinding
-import com.lagradost.cloudstream3.databinding.AccountSelectLinearBinding
-import com.lagradost.cloudstream3.databinding.BottomInputDialogBinding
-import com.lagradost.cloudstream3.databinding.LockPinDialogBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.AccountEditDialogBinding
+import com.tg7error.seventube.databinding.AccountSelectLinearBinding
+import com.tg7error.seventube.databinding.BottomInputDialogBinding
+import com.tg7error.seventube.databinding.LockPinDialogBinding
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.observe
 import com.lagradost.cloudstream3.ui.result.setLinearListLayout

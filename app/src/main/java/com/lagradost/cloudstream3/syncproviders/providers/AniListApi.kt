@@ -6,12 +6,12 @@ import com.lagradost.cloudstream3.Actor
 import com.lagradost.cloudstream3.ActorData
 import com.lagradost.cloudstream3.ActorRole
 import com.lagradost.cloudstream3.APIHolder
-import com.lagradost.cloudstream3.BuildConfig
+import com.tg7error.seventube.BuildConfig
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.getKey
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.setKey
 import com.lagradost.cloudstream3.ErrorLoadingException
 import com.lagradost.cloudstream3.NextAiring
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.Score
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.app

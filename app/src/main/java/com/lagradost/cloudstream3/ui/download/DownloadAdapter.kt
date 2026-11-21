@@ -9,9 +9,9 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.DiffUtil
 import androidx.viewbinding.ViewBinding
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.DownloadChildEpisodeBinding
-import com.lagradost.cloudstream3.databinding.DownloadHeaderEpisodeBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.DownloadChildEpisodeBinding
+import com.tg7error.seventube.databinding.DownloadHeaderEpisodeBinding
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.ui.NoStateAdapter
 import com.lagradost.cloudstream3.ui.ViewHolderState

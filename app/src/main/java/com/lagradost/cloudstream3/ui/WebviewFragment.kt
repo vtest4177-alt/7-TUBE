@@ -10,7 +10,7 @@ import androidx.fragment.app.FragmentActivity
 import androidx.navigation.fragment.findNavController
 import com.lagradost.cloudstream3.MainActivity
 import com.lagradost.cloudstream3.USER_AGENT
-import com.lagradost.cloudstream3.databinding.FragmentWebviewBinding
+import com.tg7error.seventube.databinding.FragmentWebviewBinding
 import com.lagradost.cloudstream3.network.WebViewResolver
 import com.lagradost.cloudstream3.utils.AppContextUtils.loadRepository
 

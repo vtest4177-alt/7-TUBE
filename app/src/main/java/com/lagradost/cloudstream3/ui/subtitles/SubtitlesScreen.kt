@@ -34,7 +34,7 @@ import androidx.media3.ui.CaptionStyleCompat
 import androidx.media3.ui.SubtitleView
 import coil3.compose.AsyncImage
 import com.lagradost.cloudstream3.CloudStreamApp
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.ui.player.CustomDecoder
 import com.lagradost.cloudstream3.ui.settings.SettingsFragmentScreen.launchSafe

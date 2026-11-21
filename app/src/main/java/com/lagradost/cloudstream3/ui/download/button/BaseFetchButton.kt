@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.annotation.LayoutRes
 import androidx.core.view.isVisible
 import androidx.core.widget.ContentLoadingProgressBar
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.utils.Coroutines.ioSafe
 import com.lagradost.cloudstream3.utils.Coroutines.mainWork
 import com.lagradost.cloudstream3.utils.downloader.VideoDownloadManager

@@ -11,7 +11,7 @@ import androidx.tvprovider.media.tv.Channel
 import androidx.tvprovider.media.tv.PreviewProgram
 import androidx.tvprovider.media.tv.TvContractCompat
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.SearchResponse
 import com.lagradost.cloudstream3.base64Encode
 import com.lagradost.cloudstream3.syncproviders.AccountManager.Companion.APP_STRING_SHARE

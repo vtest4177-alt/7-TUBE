@@ -51,7 +51,7 @@ import com.lagradost.cloudstream3.CommonActivity.isInPIPMode
 import com.lagradost.cloudstream3.CommonActivity.screenWidth
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.ErrorLoadingException
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.safe
 import com.lagradost.cloudstream3.ui.player.live.LivePreviewTimeBar

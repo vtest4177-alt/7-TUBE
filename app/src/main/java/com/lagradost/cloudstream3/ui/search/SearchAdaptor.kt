@@ -5,8 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import com.lagradost.cloudstream3.SearchResponse
-import com.lagradost.cloudstream3.databinding.SearchResultGridBinding
-import com.lagradost.cloudstream3.databinding.SearchResultGridExpandedBinding
+import com.tg7error.seventube.databinding.SearchResultGridBinding
+import com.tg7error.seventube.databinding.SearchResultGridExpandedBinding
 import com.lagradost.cloudstream3.ui.AutofitRecyclerView
 import com.lagradost.cloudstream3.ui.BaseDiffCallback
 import com.lagradost.cloudstream3.ui.NoStateAdapter

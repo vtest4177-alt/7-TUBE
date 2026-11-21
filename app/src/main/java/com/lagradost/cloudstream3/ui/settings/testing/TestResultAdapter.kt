@@ -9,8 +9,8 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.MainAPI
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.ProviderTestItemBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.ProviderTestItemBinding
 import com.lagradost.cloudstream3.mvvm.getAllMessages
 import com.lagradost.cloudstream3.mvvm.getStackTracePretty
 import com.lagradost.cloudstream3.plugins.PluginManager

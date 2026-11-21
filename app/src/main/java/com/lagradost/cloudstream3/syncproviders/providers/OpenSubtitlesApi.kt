@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.cloudstream3.APIHolder
 import com.lagradost.cloudstream3.APIHolder.unixTimeMS
 import com.lagradost.cloudstream3.ErrorLoadingException
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.app
 import com.lagradost.cloudstream3.subtitles.AbstractSubtitleEntities
 import com.lagradost.cloudstream3.syncproviders.AuthData

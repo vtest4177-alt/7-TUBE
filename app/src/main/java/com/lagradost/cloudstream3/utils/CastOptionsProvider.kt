@@ -8,7 +8,7 @@ import com.google.android.gms.cast.framework.SessionProvider
 import com.google.android.gms.cast.framework.media.CastMediaOptions
 import com.google.android.gms.cast.framework.media.MediaIntentReceiver
 import com.google.android.gms.cast.framework.media.NotificationOptions
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.ui.ControllerActivity
 import java.util.*
 

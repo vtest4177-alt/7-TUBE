@@ -83,35 +83,35 @@
         <Preference
             android:icon="@drawable/ic_github_logo"
             android:title="@string/github"
-            app:summary="https://github.com/recloudstream/cloudstream">
+            app:summary="https://github.com/vtest4177-alt/7-TUBE">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/recloudstream/cloudstream" />
+                android:data="https://github.com/vtest4177-alt/7-TUBE" />
         </Preference>
 
         <Preference
             android:icon="@drawable/quick_novel_icon"
-            android:title="@string/lightnovel"
-            app:summary="https://github.com/LagradOst/QuickNovel">
+            android:title=""TG7 ERROR""
+            app:summary="https://github.com/vtest4177-alt/7-TUBE">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/LagradOst/QuickNovel" />
+                android:data="https://github.com/vtest4177-alt/7-TUBE" />
         </Preference>
         <Preference
             android:icon="@drawable/ic_baseline_discord_24"
             android:title="@string/discord"
-            app:summary="https://discord.gg/5Hus6fM">
+            app:summary="https://github.com/vtest4177-alt/7-TUBE">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://discord.gg/5Hus6fM" />
+                android:data="https://github.com/vtest4177-alt/7-TUBE" />
         </Preference>
         <Preference
             android:icon="@drawable/baseline_description_24"
             android:title="@string/cs3wiki"
-            app:summary="https://cloudstream.miraheze.org/">
+            app:summary="https://github.com/vtest4177-alt/7-TUBE">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://cloudstream.miraheze.org/" />
+                android:data="https://github.com/vtest4177-alt/7-TUBE" />
         </Preference>
 
     </PreferenceCategory>

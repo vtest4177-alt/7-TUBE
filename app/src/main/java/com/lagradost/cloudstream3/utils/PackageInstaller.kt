@@ -12,7 +12,7 @@ import android.os.Build
 import android.util.Log
 import android.widget.Toast
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.context
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.services.PackageInstallerService
 import com.lagradost.cloudstream3.utils.Coroutines.main

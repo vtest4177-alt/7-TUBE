@@ -41,11 +41,11 @@ import androidx.recyclerview.widget.SimpleItemAnimator
 import com.google.android.material.button.MaterialButton
 import com.lagradost.cloudstream3.CommonActivity.keyEventListener
 import com.lagradost.cloudstream3.LoadResponse
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.FragmentPlayerBinding
-import com.lagradost.cloudstream3.databinding.PlayerCustomLayoutBinding
-import com.lagradost.cloudstream3.databinding.SpeedDialogBinding
-import com.lagradost.cloudstream3.databinding.SubtitleOffsetBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.FragmentPlayerBinding
+import com.tg7error.seventube.databinding.PlayerCustomLayoutBinding
+import com.tg7error.seventube.databinding.SpeedDialogBinding
+import com.tg7error.seventube.databinding.SubtitleOffsetBinding
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.ui.player.GeneratorPlayer.Companion.subsProvidersIsActive
 import com.lagradost.cloudstream3.ui.player.source_priority.QualityDataHelper
@@ -724,7 +724,7 @@ open class FullScreenPlayer : AbstractPlayerFragment<FragmentPlayerBinding>(
         data class Snap(val enabled: Boolean, val threshold: Float, val makeupGain: Float)
         val snap = Snap(compressor.enabled, compressor.threshold, compressor.makeupGain)
 
-        val binding = com.lagradost.cloudstream3.databinding.CompressorDialogBinding
+        val binding = com.tg7error.seventube.databinding.CompressorDialogBinding
             .inflate(android.view.LayoutInflater.from(act))
 
         // ── Visual update helpers ──────────────────────────────────────────

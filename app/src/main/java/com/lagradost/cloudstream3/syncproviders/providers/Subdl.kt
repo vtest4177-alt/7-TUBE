@@ -2,7 +2,7 @@ package com.lagradost.cloudstream3.syncproviders.providers
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.subtitles.AbstractSubtitleEntities
 import com.lagradost.cloudstream3.subtitles.SubtitleResource
 import com.lagradost.cloudstream3.syncproviders.AuthData

@@ -11,7 +11,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.preference.PreferenceManager
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.PROVIDER_STATUS_DOWN
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.amap
 import com.lagradost.cloudstream3.mvvm.launchSafe

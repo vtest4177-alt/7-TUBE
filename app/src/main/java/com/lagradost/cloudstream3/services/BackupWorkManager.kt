@@ -11,13 +11,13 @@ import androidx.work.ForegroundInfo
 import androidx.work.PeriodicWorkRequest
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.utils.AppContextUtils.createNotificationChannel
 import com.lagradost.cloudstream3.utils.BackupUtils
 import com.lagradost.cloudstream3.utils.UIHelper.colorFromAttribute
 import java.util.concurrent.TimeUnit
 
-const val BACKUP_CHANNEL_ID = "cloudstream3.backups"
+const val BACKUP_CHANNEL_ID = "seventube.backups"
 const val BACKUP_WORK_NAME = "work_backup"
 const val BACKUP_CHANNEL_NAME = "Backups"
 const val BACKUP_CHANNEL_DESCRIPTION = "Notifications for background backups"

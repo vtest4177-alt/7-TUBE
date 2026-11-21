@@ -12,8 +12,8 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.FragmentEasterEggMonkeBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.FragmentEasterEggMonkeBinding
 import com.lagradost.cloudstream3.utils.UIHelper.hideSystemUI
 import com.lagradost.cloudstream3.utils.UIHelper.showSystemUI
 import kotlinx.coroutines.Job

@@ -11,8 +11,8 @@ import com.lagradost.cloudstream3.CommonActivity
 import com.lagradost.cloudstream3.CommonActivity.loadThemes
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.ActivityAccountSelectBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.ActivityAccountSelectBinding
 import com.lagradost.cloudstream3.mvvm.observe
 import com.lagradost.cloudstream3.ui.AutofitRecyclerView
 import com.lagradost.cloudstream3.ui.account.AccountAdapter.Companion.VIEW_TYPE_EDIT_ACCOUNT

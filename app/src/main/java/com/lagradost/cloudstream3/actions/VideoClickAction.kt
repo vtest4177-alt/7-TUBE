@@ -11,7 +11,7 @@ import com.lagradost.api.Log
 import com.lagradost.cloudstream3.CommonActivity
 import com.lagradost.cloudstream3.ErrorLoadingException
 import com.lagradost.cloudstream3.MainActivity
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.actions.temp.BiglyBTPackage
 import com.lagradost.cloudstream3.actions.temp.CopyClipboardAction
 import com.lagradost.cloudstream3.actions.temp.JustPlayerPackage

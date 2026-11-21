@@ -5,7 +5,7 @@ import android.graphics.Matrix
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import androidx.core.content.withStyledAttributes
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.logError
 
 /**

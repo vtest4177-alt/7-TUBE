@@ -50,7 +50,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.lagradost.cloudstream3.APIHolder.allProviders
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.ui.settings.SettingsFragmentScreen.SettingsSearch
 import com.lagradost.cloudstream3.ui.settings.logcat.toHumanReadable
 import com.lagradost.cloudstream3.utils.TestingUtils

@@ -6,8 +6,8 @@ import androidx.core.view.isVisible
 import androidx.navigation.fragment.findNavController
 import com.lagradost.cloudstream3.APIHolder.apis
 import com.lagradost.cloudstream3.MainActivity.Companion.afterRepositoryLoadedEvent
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.FragmentSetupExtensionsBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.FragmentSetupExtensionsBinding
 import com.lagradost.cloudstream3.mvvm.safe
 import com.lagradost.cloudstream3.plugins.RepositoryManager
 import com.lagradost.cloudstream3.plugins.RepositoryManager.PREBUILT_REPOSITORIES

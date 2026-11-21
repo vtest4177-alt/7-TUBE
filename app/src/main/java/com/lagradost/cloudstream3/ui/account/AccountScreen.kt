@@ -63,7 +63,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
 import coil3.compose.AsyncImage
 import com.lagradost.cloudstream3.CloudStreamApp
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.ui.settings.SettingsFragmentScreen.launchSafe
 import com.lagradost.cloudstream3.utils.DataStoreHelper

@@ -2,7 +2,7 @@ package com.lagradost.cloudstream3.actions.temp
 
 import android.app.Activity
 import android.content.Context
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.actions.VideoClickAction
 import com.lagradost.cloudstream3.ui.player.ExtractorUri
 import com.lagradost.cloudstream3.ui.player.GeneratorPlayer

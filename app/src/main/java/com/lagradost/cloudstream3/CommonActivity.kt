@@ -36,7 +36,7 @@ import com.lagradost.cloudstream3.CloudStreamApp.Companion.getKey
 import com.lagradost.cloudstream3.CloudStreamApp.Companion.removeKey
 import com.lagradost.cloudstream3.actions.OpenInAppAction
 import com.lagradost.cloudstream3.actions.VideoClickActionHolder
-import com.lagradost.cloudstream3.databinding.ToastBinding
+import com.tg7error.seventube.databinding.ToastBinding
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.syncproviders.AccountManager
 import com.lagradost.cloudstream3.ui.home.HomeChildItemAdapter

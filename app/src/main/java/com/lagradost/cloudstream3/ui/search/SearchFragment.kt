@@ -37,11 +37,11 @@ import com.lagradost.cloudstream3.HomePageList
 import com.lagradost.cloudstream3.MainAPI
 import com.lagradost.cloudstream3.MainActivity
 import com.lagradost.cloudstream3.MainActivity.Companion.afterPluginsLoadedEvent
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.SearchResponse
 import com.lagradost.cloudstream3.TvType
-import com.lagradost.cloudstream3.databinding.FragmentSearchBinding
-import com.lagradost.cloudstream3.databinding.HomeSelectMainpageBinding
+import com.tg7error.seventube.databinding.FragmentSearchBinding
+import com.tg7error.seventube.databinding.HomeSelectMainpageBinding
 import com.lagradost.cloudstream3.mvvm.Resource
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.observe

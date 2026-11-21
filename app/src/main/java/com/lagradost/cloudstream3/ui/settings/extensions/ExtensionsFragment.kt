@@ -19,9 +19,9 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.lagradost.cloudstream3.CommonActivity.showToast
 import com.lagradost.cloudstream3.MainActivity.Companion.afterRepositoryLoadedEvent
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.AddRepoInputBinding
-import com.lagradost.cloudstream3.databinding.FragmentExtensionsBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.AddRepoInputBinding
+import com.tg7error.seventube.databinding.FragmentExtensionsBinding
 import com.lagradost.cloudstream3.mvvm.observe
 import com.lagradost.cloudstream3.mvvm.observeNullable
 import com.lagradost.cloudstream3.plugins.RepositoryManager

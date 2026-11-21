@@ -3,10 +3,10 @@ package com.lagradost.cloudstream3.ui.account
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.AccountListItemAddBinding
-import com.lagradost.cloudstream3.databinding.AccountListItemBinding
-import com.lagradost.cloudstream3.databinding.AccountListItemEditBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.AccountListItemAddBinding
+import com.tg7error.seventube.databinding.AccountListItemBinding
+import com.tg7error.seventube.databinding.AccountListItemEditBinding
 import com.lagradost.cloudstream3.ui.NoStateAdapter
 import com.lagradost.cloudstream3.ui.ViewHolderState
 import com.lagradost.cloudstream3.ui.account.AccountHelper.showAccountEditDialog

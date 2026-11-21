@@ -10,7 +10,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.fragment.app.FragmentActivity
 import com.lagradost.cloudstream3.CommonActivity.activity
 import com.lagradost.cloudstream3.CommonActivity.onDialogDismissedEvent
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.syncproviders.AccountManager.Companion.aniListApi
 import com.lagradost.cloudstream3.syncproviders.AccountManager.Companion.animeSkipApi
 import com.lagradost.cloudstream3.syncproviders.AccountManager.Companion.kitsuApi

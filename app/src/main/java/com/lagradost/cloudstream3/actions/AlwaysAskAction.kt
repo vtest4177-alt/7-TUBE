@@ -1,7 +1,7 @@
 package com.lagradost.cloudstream3.actions
 
 import android.content.Context
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.ui.result.LinkLoadingResult
 import com.lagradost.cloudstream3.ui.result.ResultEpisode
 import com.lagradost.cloudstream3.utils.txt

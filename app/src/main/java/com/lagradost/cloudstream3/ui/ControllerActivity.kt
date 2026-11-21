@@ -24,7 +24,7 @@ import com.google.android.gms.cast.framework.CastSession
 import com.google.android.gms.cast.framework.media.RemoteMediaClient
 import com.google.android.gms.cast.framework.media.uicontroller.UIController
 import com.google.android.gms.cast.framework.media.widget.ExpandedControllerActivity
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.mvvm.Resource
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.safeApiCall

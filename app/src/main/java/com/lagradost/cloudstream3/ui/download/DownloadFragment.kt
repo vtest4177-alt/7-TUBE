@@ -19,9 +19,9 @@ import androidx.core.view.isVisible
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.activityViewModels
 import com.lagradost.cloudstream3.CommonActivity.showToast
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.FragmentDownloadsBinding
-import com.lagradost.cloudstream3.databinding.StreamInputBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.FragmentDownloadsBinding
+import com.tg7error.seventube.databinding.StreamInputBinding
 import com.lagradost.cloudstream3.isEpisodeBased
 import com.lagradost.cloudstream3.mvvm.Resource
 import com.lagradost.cloudstream3.mvvm.safe

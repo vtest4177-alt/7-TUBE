@@ -12,7 +12,7 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.PendingIntentCompat
 import com.lagradost.cloudstream3.MainActivity
 import com.lagradost.cloudstream3.MainActivity.Companion.deleteFileOnExit
-import com.lagradost.cloudstream3.R
+import com.tg7error.seventube.R
 import com.lagradost.cloudstream3.app
 import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.utils.ApkInstaller
@@ -173,7 +173,7 @@ class PackageInstallerService : Service() {
     companion object {
         private const val EXTRA_URL = "EXTRA_URL"
 
-        const val UPDATE_CHANNEL_ID = "cloudstream3.updates"
+        const val UPDATE_CHANNEL_ID = "seventube.updates"
         const val UPDATE_CHANNEL_NAME = "App Updates"
         const val UPDATE_CHANNEL_DESCRIPTION = "App updates notification channel"
         const val UPDATE_NOTIFICATION_ID = -68454136 // Random unique

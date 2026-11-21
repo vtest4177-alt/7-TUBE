@@ -16,11 +16,11 @@ import androidx.core.view.marginLeft
 import androidx.core.view.marginRight
 import androidx.core.view.marginTop
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.lagradost.cloudstream3.R
-import com.lagradost.cloudstream3.databinding.BottomInputDialogBinding
-import com.lagradost.cloudstream3.databinding.BottomSelectionDialogBinding
-import com.lagradost.cloudstream3.databinding.BottomTextDialogBinding
-import com.lagradost.cloudstream3.databinding.OptionsPopupTvBinding
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.BottomInputDialogBinding
+import com.tg7error.seventube.databinding.BottomSelectionDialogBinding
+import com.tg7error.seventube.databinding.BottomTextDialogBinding
+import com.tg7error.seventube.databinding.OptionsPopupTvBinding
 import com.lagradost.cloudstream3.ui.settings.Globals.EMULATOR
 import com.lagradost.cloudstream3.ui.settings.Globals.PHONE
 import com.lagradost.cloudstream3.ui.settings.Globals.TV

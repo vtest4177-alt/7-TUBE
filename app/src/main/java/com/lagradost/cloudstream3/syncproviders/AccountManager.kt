@@ -132,17 +132,17 @@ abstract class AccountManager {
             SyncRepo(localListApi)
         )
 
-        const val APP_STRING = "cloudstreamapp"
-        const val APP_STRING_REPO = "cloudstreamrepo"
-        const val APP_STRING_PLAYER = "cloudstreamplayer"
+        const val APP_STRING = "seventubeapp"
+        const val APP_STRING_REPO = "seventuberepo"
+        const val APP_STRING_PLAYER = "seventubeplayer"
 
         // Instantly start the search given a query
-        const val APP_STRING_SEARCH = "cloudstreamsearch"
+        const val APP_STRING_SEARCH = "seventubesearch"
 
         // Instantly resume watching a show
-        const val APP_STRING_RESUME_WATCHING = "cloudstreamcontinuewatching"
+        const val APP_STRING_RESUME_WATCHING = "seventubecontinuewatching"
 
-        const val APP_STRING_SHARE = "csshare"
+        const val APP_STRING_SHARE = "seventubeshare"
 
         fun secondsToReadable(seconds: Int, completedValue: String): String {
             var secondsLong = seconds.toLong()
