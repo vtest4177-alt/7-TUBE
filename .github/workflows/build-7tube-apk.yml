@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build-apk:
@@ -30,12 +30,21 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v5
 
-      - name: Build 7-Tube Prerelease Debug APK
-        run: ./gradlew assemblePrereleaseDebug --no-daemon --stacktrace
+      - name: Build 7-Tube Release APK
+        run: ./gradlew assembleStableRelease --no-daemon --stacktrace
 
       - name: Upload 7-Tube APK Artifact
         uses: actions/upload-artifact@v7
         with:
           name: 7-tube-apk
-          path: app/build/outputs/apk/prerelease/debug/*.apk
+          path: app/build/outputs/apk/stable/release/*.apk
           if-no-files-found: error
+
+      - name: Publish Direct GitHub Release APK Link
+        uses: softprops/action-gh-release@v2
+        continue-on-error: true
+        with:
+          tag_name: 7tube-latest
+          name: 7-Tube Latest APK (TG7 ERROR)
+          prerelease: false
+          files: app/build/outputs/apk/stable/release/*.apk
