@@ -379,7 +379,7 @@ class HomeViewModel : ViewModel() {
                                 previewResponses,
                                 previewResponsesAdded,
                                 randomItems,
-                                3
+                                1
                             )
 
                             _randomItems.postValue(randomItems)

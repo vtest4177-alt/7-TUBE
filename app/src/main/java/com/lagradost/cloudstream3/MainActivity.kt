@@ -1186,6 +1186,31 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        var appliedLowDataUpgrade = false
+        try {
+            val bootPrefs = PreferenceManager.getDefaultSharedPreferences(this)
+            if (bootPrefs.getBoolean("SEVENTUBE_LOWDATA_V1", false) != true) {
+                appliedLowDataUpgrade = true
+                bootPrefs.edit {
+                    putInt(getString(R.string.dns_key), 2)
+                    putInt(getString(R.string.quality_pref_mobile_data_key), 480)
+                    putInt(getString(R.string.quality_pref_key), 720)
+                    putBoolean(getString(R.string.show_trailers_key), false)
+                    putBoolean(getString(R.string.preview_seekbar_key), false)
+                    putBoolean("SEVENTUBE_LOWDATA_V1", true)
+                }
+                com.lagradost.cloudstream3.ui.player.source_priority.QualityDataHelper.apply {
+                    setQualityPriority(1, com.lagradost.cloudstream3.utils.Qualities.P480, 9)
+                    setQualityPriority(1, com.lagradost.cloudstream3.utils.Qualities.P720, 8)
+                    setQualityPriority(1, com.lagradost.cloudstream3.utils.Qualities.P360, 7)
+                    setQualityPriority(1, com.lagradost.cloudstream3.utils.Qualities.P1080, 5)
+                    setQualityPriority(1, com.lagradost.cloudstream3.utils.Qualities.P1440, 3)
+                    setQualityPriority(1, com.lagradost.cloudstream3.utils.Qualities.P2160, 2)
+                }
+            }
+        } catch (e: Exception) {
+            logError(e)
+        }
         app.initClient(this, ignoreSSL = false)
         @OptIn(UnsafeSSL::class)
         insecureApp.initClient(this, ignoreSSL = true)
@@ -1379,6 +1404,96 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
                         )
                     } else {
                         ___DO_NOT_CALL_FROM_A_PLUGIN_loadAllOnlinePlugins(this@MainActivity)
+                    }
+
+                    try {
+                        val existingRepos =
+                            com.lagradost.cloudstream3.plugins.RepositoryManager.getRepositories()
+                        val starterRepos = listOf(
+                            com.lagradost.cloudstream3.ui.settings.extensions.RepositoryData(
+                                null,
+                                "CSX (Hindi & English)",
+                                "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/CS.json"
+                            ),
+                            com.lagradost.cloudstream3.ui.settings.extensions.RepositoryData(
+                                null,
+                                "Phisher Repo (All Movies & Anime)",
+                                "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/repo.json"
+                            ),
+                            com.lagradost.cloudstream3.ui.settings.extensions.RepositoryData(
+                                null,
+                                "7-Tube Core Extensions",
+                                "https://raw.githubusercontent.com/recloudstream/extensions/master/repo.json"
+                            )
+                        )
+                        for (repoData in starterRepos) {
+                            if (existingRepos.none { it.url == repoData.url }) {
+                                com.lagradost.cloudstream3.plugins.RepositoryManager.addRepository(
+                                    repoData
+                                )
+                            }
+                        }
+
+                        if (PluginManager.getPluginsOnline().isEmpty() &&
+                            getKey<Boolean>("SEVENTUBE_STARTER_INSTALLED_V1", false) != true
+                        ) {
+                            val csxRepo = starterRepos.first()
+                            val csxPlugins =
+                                com.lagradost.cloudstream3.plugins.RepositoryManager.getRepoPlugins(
+                                    csxRepo
+                                ) ?: emptyList()
+                            var installedCount = 0
+                            for (wrapper in csxPlugins) {
+                                if (wrapper.plugin.status != 0 && wrapper.plugin.url.isNotBlank()) {
+                                    val ok = PluginManager.downloadPlugin(
+                                        this@MainActivity,
+                                        wrapper.plugin.url,
+                                        wrapper.plugin.fileHash,
+                                        wrapper.plugin.internalName,
+                                        csxRepo.url,
+                                        true
+                                    )
+                                    if (ok) installedCount++
+                                }
+                            }
+                            if (installedCount > 0) {
+                                setKey("SEVENTUBE_STARTER_INSTALLED_V1", true)
+                            }
+                        }
+
+                        pluginsLock.withLock {
+                            allProviders.withLock {
+                                apis = allProviders.distinctBy {
+                                    it.lang + it.name + it.mainUrl + it::class.qualifiedName
+                                }
+                                APIHolder.apiMap = null
+                            }
+                        }
+
+                        val preferredApi = apis.firstOrNull {
+                            it.name.equals("VegaMovies", ignoreCase = true) && it.hasMainPage
+                        } ?: apis.firstOrNull {
+                            it.name.equals("MoviesDrive", ignoreCase = true) && it.hasMainPage
+                        } ?: apis.firstOrNull {
+                            it.name.equals("Bollyflix", ignoreCase = true) && it.hasMainPage
+                        } ?: apis.firstOrNull {
+                            it.name.equals("CineStream", ignoreCase = true) && it.hasMainPage
+                        } ?: apis.firstOrNull { it.hasMainPage }
+
+                        if (preferredApi != null &&
+                            (DataStoreHelper.currentHomePage.isNullOrBlank() ||
+                                DataStoreHelper.currentHomePage == "None" ||
+                                (appliedLowDataUpgrade && DataStoreHelper.currentHomePage == "CineStream"))
+                        ) {
+                            DataStoreHelper.currentHomePage = preferredApi.name
+                        }
+
+                        afterRepositoryLoadedEvent.invoke(true)
+                        afterPluginsLoadedEvent.invoke(true)
+                        mainPluginsLoadedEvent.invoke(true)
+                        reloadHomeEvent.invoke(true)
+                    } catch (e: Exception) {
+                        logError(e)
                     }
 
                     //Automatically download not existing plugins, using mode specified.
@@ -2032,16 +2147,7 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
 
         try {
             if (getKey<Boolean>(HAS_DONE_SETUP_KEY, false) != true) {
-                navController.navigate(R.id.navigation_setup_language)
-                // If no plugins bring up extensions screen
-            } else if (PluginManager.getPluginsOnline().isEmpty()
-                && PluginManager.getPluginsLocal().isEmpty()
-//                && PREBUILT_REPOSITORIES.isNotEmpty()
-            ) {
-                navController.navigate(
-                    R.id.navigation_setup_extensions,
-                    SetupFragmentExtensions.newInstance(false)
-                )
+                setKey(HAS_DONE_SETUP_KEY, true)
             }
         } catch (e: Exception) {
             logError(e)
