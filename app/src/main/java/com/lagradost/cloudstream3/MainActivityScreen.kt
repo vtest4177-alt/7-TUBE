@@ -1,5 +1,8 @@
 package com.lagradost.cloudstream3
 
+import com.tg7error.seventube.R
+import com.tg7error.seventube.BuildConfig
+
 import android.text.format.Formatter.formatFileSize
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.LocalActivity

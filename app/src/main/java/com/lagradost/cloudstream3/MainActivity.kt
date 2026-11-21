@@ -1,5 +1,8 @@
 package com.lagradost.cloudstream3
 
+import com.tg7error.seventube.R
+import com.tg7error.seventube.BuildConfig
+
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint
 import android.app.Dialog

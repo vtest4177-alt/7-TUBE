@@ -1,5 +1,8 @@
 package com.lagradost.cloudstream3
 
+import com.tg7error.seventube.R
+import com.tg7error.seventube.databinding.*
+
 import android.app.Activity
 import android.os.Bundle
 import android.os.PersistableBundle

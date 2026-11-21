@@ -1,5 +1,7 @@
 package com.lagradost.cloudstream3
 
+import com.tg7error.seventube.R
+
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.PictureInPictureParams

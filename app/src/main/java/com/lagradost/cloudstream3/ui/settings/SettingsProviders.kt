@@ -1,5 +1,7 @@
 package com.lagradost.cloudstream3.ui.settings
 
+import com.tg7error.seventube.R
+
 import android.os.Bundle
 import android.view.View
 import androidx.core.content.edit
